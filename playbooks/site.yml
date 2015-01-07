@@ -35,6 +35,7 @@
     - language-php
     - language-puppet
     - language-python
+    - language-r
     - language-racket
     - language-rpm
     - language-rst
@@ -96,6 +97,7 @@
     - language-php
     - language-puppet
     - language-python
+    - language-r
     - language-racket
     - language-rpm
     - language-rst
