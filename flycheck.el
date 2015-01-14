@@ -5768,7 +5768,7 @@ The checker runs `checkdoc-current-buffer'."
   "An Erlang syntax checker using the Erlang interpreter.
 
 See URL `http://www.erlang.org/'."
-  :command ("erlc" "-o" temporary-directory "-Wall" source)
+  :command ("syntaxerl" source)
   :error-patterns
   ((warning line-start (file-name) ":" line ": Warning:" (message) line-end)
    (error line-start (file-name) ":" line ": " (message) line-end))
